@@ -1,5 +1,9 @@
-import java.io.*;
-
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.FileOutputStream;
+import java.io.FileInputStream;
 public class FileOperation {
 
     public static String getExtension (String filename){
